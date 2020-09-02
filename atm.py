@@ -13,7 +13,10 @@ def menu():
 		choose_menu = int(input("Choose menu : "))
 		if choose_menu == 1:
 			print("\n===== BALANCE =====")
-			print("Your balance is",balance)
+			if balance < 0:
+				print("You're broke :((")
+			else:
+				print("Your balance is",balance)
 		elif choose_menu == 2:
 			print("\n===== WITHDRAW =====")
 			withdraw()
