@@ -42,7 +42,7 @@ public class Main{
 							withdraw();
 							break;
 						case 3:
-						System.out.println("\n===== DEPOSIT =====");
+							System.out.println("\n===== DEPOSIT =====");
 							deposit();
 							break;
 						case 4:
