@@ -48,7 +48,7 @@ def withdraw():
 			time.sleep(2)
 			print("Your withdraw is success!")
 			print("Don't forget to check your balance")
-			balance = balance - input_withdraw
+			balance -= input_withdraw
 		else:
 			print("Your withdraw is cancelled")
 	else:
@@ -64,7 +64,7 @@ def deposit():
 		print("Please wait...")
 		time.sleep(2)
 		print("Your deposit is success!")
-		balance = balance + input_deposit
+		balance += input_deposit
 	else:
 		print("Your deposit is cancelled")
 
